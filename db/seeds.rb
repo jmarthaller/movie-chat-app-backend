@@ -5,3 +5,56 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+
+User.destroy_all
+Movie.destroy_all
+Review.destroy_all
+
+puts "Destroying all instances"
+
+
+
+puts "Seeding data" 
+
+User.create(
+    username: "Billy",
+    password: "123",
+    avatar: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Screen_Shot_for_avatar_image_hosting.png"
+)
+
+
+
+
+Movie.create()
+
+
+
+
+
+
+
+Review.create(content: , rating: rand(1..5), user_id: User.all.sample.id, movie_id: Movie.all.sample.id)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+puts "Data seeded!"
