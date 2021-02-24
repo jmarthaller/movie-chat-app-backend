@@ -26,8 +26,8 @@ User.create(
 
 base_image_url = 'https://image.tmdb.org/t/p/w500'
 
-Movie.create(title: "Fight Club", runtimbase_image_url + e: 139, image: base_image_url + "/8kNruSfhk5IoE4eZOc4UpvDn6tq.jpg", genre: "Drama", tagline: "Mischief. Mayhem. Soap.", release_year: 1999, overview: "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy.", rating: 8.4)
-Movie.create(title: "Titanic", runtime: base_image_url + 194, image: base_image_url + "/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg", genre: "Drama", tagline: "Nothing on Earth could come between them.", release_year: 1997, overview: "101-year-old Rose DeWitt Bukater tells the story of her life aboard the Titanic, 84 years later.", rating: 7.9)
+Movie.create(title: "Fight Club", runtime: 139, image: base_image_url + "/8kNruSfhk5IoE4eZOc4UpvDn6tq.jpg", genre: "Drama", tagline: "Mischief. Mayhem. Soap.", release_year: 1999, overview: "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy.", rating: 8.4)
+Movie.create(title: "Titanic", runtime: 194, image: base_image_url + "/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg", genre: "Drama", tagline: "Nothing on Earth could come between them.", release_year: 1997, overview: "101-year-old Rose DeWitt Bukater tells the story of her life aboard the Titanic, 84 years later.", rating: 7.9)
 Movie.create(title: "Avengers: Endgame", runtime: 181, image: base_image_url + "/bvjltR2nDuhf1NlnwCrgNwvHuIh.jpg", genre: "Action", tagline: "Part of the journey is the end.", release_year: 2019, overview: "After the devastating events of Avengers: Infinity War, the universe is in ruins due to the efforts of the Mad Titan, Thanos.", rating: 8.3)
 Movie.create(title: "Bonnie and Clyde", runtime: 110, image: base_image_url + "/sE0B42SAVLga4Qwzt4IgqwEsEUQ.jpg", genre: "Crime", tagline: "They’re young… they’re in love… and they kill people.", release_year: 1967, overview: "In the 1930s, bored waitress Bonnie Parker falls in love with an ex-con named Clyde Barrow and together they start a violent crime spree through the country", rating: 7.5)
 Movie.create(title: "Madea's Family Reunion", runtime: 110, image: base_image_url + "/bO9NvwpSElW8lp33fGyy8VaS5s9.jpg", genre: "Comedy", tagline: "She's back", release_year: 2006, overview: "Based upon Tyler Perry's acclaimed stage production", rating: 6.2)
@@ -43,16 +43,16 @@ Movie.create(title: "Star Trek: Insurrection", runtime: 103, image: base_image_u
 Movie.create(title: "Die Another Day", runtime: 133, image: base_image_url + "/HORpg5CSkmeQlAolx3bKMrKgfi.jpg", genre: "Thriller", tagline: "He's never been cooler.", release_year: 2002, overview: "Bond takes on a North Korean leader who undergoes DNA replacement procedures that allow him to assume different identities.", rating: 6.0)
 Movie.create(title: "Mrs. Doubtfire", runtime: 125, image: base_image_url + "/szvidvi0Fo4j2gmMtk1sNe1rkzw.jpg", genre: "Comedy", tagline: "She makes dinner. She does windows. She reads bedtime stories. She's a blessing... in disguise.", release_year: 1993, overview: "Loving but irresponsible dad Daniel Hillard, estranged from his exasperated spouse, is crushed by a court order allowing only weekly visits with his kids.", rating: 7.2)
 Movie.create(title: "Young Einstein", runtime: 91, image: base_image_url + "/2OtWkhzdpsmE7gnY3VsJCiFr9U3.jpg", genre: "Comedy", tagline: "E=mc²", release_year: 1988, overview: "Albert Einstein is the son of a Tasmanian apple farmer, who discovers the secret of splitting the beer atom to put the bubbles back into beer.", rating: 5.0)
-Movie.create(title: , runtime: , image: base_image_url + "", genre: , tagline: , release_year: , overview: , rating: )
-Movie.create(title: , runtime: , image: base_image_url + "", genre: , tagline: , release_year: , overview: , rating: )
-Movie.create(title: , runtime: , image: base_image_url + "", genre: , tagline: , release_year: , overview: , rating: )
-Movie.create(title: , runtime: , image: base_image_url + "", genre: , tagline: , release_year: , overview: , rating: )
-Movie.create(title: , runtime: , image: base_image_url + "", genre: , tagline: , release_year: , overview: , rating: )
+Movie.create(title: "Volver", runtime: 121, image: base_image_url + "/ljRPzuI1xybiFUGU1uCRdx68h0K.jpg", genre: "Comedy", tagline: "Return.", release_year: 2006, overview: "Raimunda lives and works in Madrid with her husband Paco and their daughter Paula.", rating: 7.5)
+Movie.create(title: "Do The Right Thing", runtime: 120, image: base_image_url + "/63rmSDPahrH7C1gEFYzRuIBAN9W.jpg", genre: "Drama", tagline: "It's the hottest day of the summer. You can do nothing, you can do something, or you can …", release_year: 1989, overview: "A neighborhood local, Buggin' Out, becomes upset when he sees that the pizzeria's Wall of Fame exhibits only Italian actors.", rating: 7.8)
+Movie.create(title: "Aliens", runtime: 137, image: base_image_url + "/iVzIeC3PbG9BtDAudpwSNdKAgh6.jpg", genre: "Science Fiction", tagline: "This Time It's War", release_year: 1986, overview: "When Ripley's lifepod is found by a salvage crew over 50 years later, she finds that terra-formers are on the very planet they found the alien species.", rating: 7.9)
+Movie.create(title: "Ghostbusters", runtime: 117, image: base_image_url + "/wJmWliwXIgZOCCVOcGRBhce7xPS.jpg", genre: "Fantasy", tagline: "Who You Gonna Call?", release_year: 2016, overview: "Following a ghost invasion of Manhattan, paranormal enthusiasts band together to stop the otherworldly threat.", rating: 5.4)
+Movie.create(title: "An American Werewolf in London", runtime: 97, image: base_image_url + "/3vCDeq3mWJY0uJ5CvmJwOXWNBft.jpg", genre: "Horror", tagline: "Beware the Moon.", release_year: 1981, overview: "Two American tourists in England are attacked by a werewolf that none of the locals will admit exists.", rating: 7.3)
 
 
 
 100.times do 
-    Review.create(content: , rating: rand(1..5), user_id: User.all.sample.id, movie_id: Movie.all.sample.id)
+    Review.create(content: Faker::Quote.famous_last_words, personal_rating: rand(1..5), user_id: User.all.sample.id, movie_id: Movie.all.sample.id)
 end
 
 
