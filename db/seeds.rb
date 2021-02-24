@@ -18,7 +18,7 @@ puts "Destroying all instances"
 puts "Seeding data" 
 
 User.create(
-    username: "Billy",
+    username: "markansas",
     password: "123",
     avatar: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Screen_Shot_for_avatar_image_hosting.png"
 )
@@ -26,15 +26,17 @@ User.create(
 
 
 
-Movie.create()
+# Movie.create()
 
 
 
 
 
+100.times do 
+    Review.create(content: , rating: rand(1..5), user_id: User.all.sample.id, movie_id: Movie.all.sample.id)
+end
 
 
-Review.create(content: , rating: rand(1..5), user_id: User.all.sample.id, movie_id: Movie.all.sample.id)
 
 
 
