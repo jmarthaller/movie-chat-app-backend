@@ -14,7 +14,6 @@ Review.destroy_all
 puts "Destroying all instances"
 
 
-
 puts "Seeding data" 
 
 User.create(
