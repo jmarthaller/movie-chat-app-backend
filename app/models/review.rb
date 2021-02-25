@@ -13,4 +13,8 @@ class Review < ApplicationRecord
     def movie_title
         self.movie.title
     end
+
+    def movie_image
+        self.movie.image
+    end
 end
