@@ -14,6 +14,16 @@ class UsersController < ApplicationController
             @current_user.update(user_params)
             render json: @current_user
         end
+
+        def create
+            user = User.create(user_params)
+            render json: user
+        end
+
+        def signup
+            user = User.last
+            render json: user
+        end
     
         private
         
