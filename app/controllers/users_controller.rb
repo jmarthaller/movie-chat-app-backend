@@ -16,8 +16,9 @@ class UsersController < ApplicationController
         end
     
         def update
-            @current_user.update(user_params)
-            render json: @current_user
+            @user = User.find(params[:id]) 
+            @user.update(user_params)
+            render json: @user
         end
 
         def create
