@@ -22,6 +22,10 @@ User.create(
     avatar: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Screen_Shot_for_avatar_image_hosting.png"
 )
 
+20.times do 
+    User.create(username: Faker::Twitter.screen_name, password: "123", avatar: Faker::LoremFlickr.image)
+end
+
 
 base_image_url = 'https://image.tmdb.org/t/p/w500'
 
