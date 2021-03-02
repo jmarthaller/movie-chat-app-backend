@@ -7,7 +7,11 @@ class Friendship < ApplicationRecord
         self.follower
     end
 
-    def followee_object
-        self.followee
+    def followee_username
+        self.followee.username
+    end
+
+    def followee_avatar
+        self.followee.avatar
     end
 end

@@ -6,8 +6,9 @@ class FriendshipsController < ApplicationController
     end
 
     def create
-        Friendship.create(friendship_params)
-        render json: @current_user
+        
+        @new_friendship = Friendship.create(friendship_params)
+        render json: @new_friendship
     end
 
 
