@@ -10,6 +10,14 @@ class Review < ApplicationRecord
         self.user.avatar
     end
 
+    def author_id
+        self.user.id
+    end
+
+    def author_object
+        self.user
+    end
+
     def movie_title
         self.movie.title
     end
