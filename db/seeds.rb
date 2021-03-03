@@ -72,7 +72,7 @@ Movie.create(title: "Zama", runtime: 115, image: base_image_url + "/kpp9R6iYKSIX
 Movie.create(title: "Certain Women", runtime: 107, image: base_image_url + "/1A5cWPvPnw7vY1Dfg3DSyLG0k96.jpg", genre: "Drama", tagline: "Enjoy the journey", release_year: 2016, overview: "Three strong-willed women strive to forge their own paths amidst the wide-open plains of the American Northwest.", rating: 6.0)
 Movie.create(title: "Coming to America", runtime: 117, image: base_image_url + "/8YZiA1o264dk0cr1USyMdph6SZl.jpg", genre: "Comedy", tagline: "The four funniest men in America are Eddie Murphy.", release_year: 1988, overview: "Join EDDIE MURPHY on an unforgettable comic quest to the New World.", rating: 6.8)
 Movie.create(title: "Porco Rosso", runtime: 94, image: base_image_url + "/byKAndF6KQSDpGxp1mTr23jPbYp.jpg", genre: "Animation", tagline: "A Pig's Got to Fly", release_year: 1992, overview: "In Italy in the 1930s, sky pirates in biplanes terrorize wealthy cruise ships as they sail the Adriatic Sea.", rating: 7.8)
-Movie.create(title: "", runtime: , image: base_image_url + "", genre: "", tagline: "", release_year: , overview: "", rating: )
+# Movie.create(title: "", runtime: , image: base_image_url + "", genre: "", tagline: "", release_year: , overview: "", rating: )
 
 
 100.times do 
