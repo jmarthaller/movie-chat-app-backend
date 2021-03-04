@@ -22,9 +22,34 @@ User.create(
     avatar: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Screen_Shot_for_avatar_image_hosting.png"
 )
 
-20.times do 
-    User.create(username: Faker::Twitter.screen_name, password: "123", avatar: Faker::LoremFlickr.image)
-end
+# 20.times do 
+#     User.create(username: Faker::Twitter.screen_name, password: "123", avatar: Faker::LoremFlickr.image)
+# end
+
+
+User.create(username: Faker::Twitter.screen_name, password: "abc123", avatar: "https://images.generated.photos/LT1oiQmDQfXybHwj8thgCttXfhwhF_Jgn7eQhf1hE4o/rs:fit:128:128/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzA0NTY0NDYuanBn.jpg")
+User.create(username: Faker::Twitter.screen_name, password: "abc123", avatar: "https://images.generated.photos/NRysxZ5yWs2amxKkcpibCWng-70sPmEaHiECDBnI2Bw/rs:fit:128:128/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzA1MzY4MTUuanBn.jpg")
+User.create(username: Faker::Twitter.screen_name, password: "abc123", avatar: "https://images.generated.photos/P_6war8s-Ka-DIBZobRocbBfp-0rGtqCSLQekGtmwZg/rs:fit:128:128/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzA1NTg4MjYuanBn.jpg")
+User.create(username: Faker::Twitter.screen_name, password: "abc123", avatar: "https://images.generated.photos/aPTVVVd27Ff2YmZECNbEZ4AWaM02RwDtWxfWx6B1mhc/rs:fit:128:128/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzA5NTE3OTIuanBn.jpg")
+User.create(username: Faker::Twitter.screen_name, password: "abc123", avatar: "https://images.generated.photos/PBof1xNaCG25FJiMMiaw-DcK1GSAmtrEpHUevX4CHr8/rs:fit:128:128/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAyOTkyMTQuanBn.jpg")
+User.create(username: Faker::Twitter.screen_name, password: "abc123", avatar: "https://images.generated.photos/lQmRywXqYB5pxiI-dbWQLUE7gAdLLtZfoq2neI6HvPE/rs:fit:128:128/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzA5OTcwNDMuanBn.jpg")
+User.create(username: Faker::Twitter.screen_name, password: "abc123", avatar: "https://images.generated.photos/ZZodBkwZ9e8Nh0l6H5eJZV6gIlng4cgGli9C6PRE3Go/rs:fit:128:128/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzA0NTUxNzkuanBn.jpg")
+User.create(username: Faker::Twitter.screen_name, password: "abc123", avatar: "https://images.generated.photos/n57wcyH5xMUQAD_UAOfQzt-k3YfB_V6jXGAtPm9YxOQ/rs:fit:128:128/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzA0NTE3NTEuanBn.jpg")
+User.create(username: Faker::Twitter.screen_name, password: "abc123", avatar: "https://images.generated.photos/05F3N0C0_xnTBT6D9cd2FVCEuLJ4DDlNgOXsUSOWoPY/rs:fit:128:128/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzA0MTg3NjguanBn.jpg")
+User.create(username: Faker::Twitter.screen_name, password: "abc123", avatar: "https://images.generated.photos/p82duUaJn9G6vZJP5wNDAwoyeM8u-iWzU_sNaTF3awE/rs:fit:128:128/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAwMjg5MjUuanBn.jpg")
+User.create(username: Faker::Twitter.screen_name, password: "abc123", avatar: "https://images.generated.photos/yjHTj3yFb6DkADwpE5xfvQy0pa19Bk7vWt5LtgAZ8RA/rs:fit:128:128/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAyNDIxMTEuanBn.jpg")
+User.create(username: Faker::Twitter.screen_name, password: "abc123", avatar: "https://images.generated.photos/0KD-eLyrQxsi-d5uPMZXbcG5tm7r16H1o8X5sZ29LwA/rs:fit:128:128/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzA1MjM3MjguanBn.jpg")
+User.create(username: Faker::Twitter.screen_name, password: "abc123", avatar: "https://images.generated.photos/DUl3_i7HsQHOoNIa69IHZm2VX_3jbbaUUs4tih1sLyc/rs:fit:128:128/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAyNzQ2MTQuanBn.jpg")
+User.create(username: Faker::Twitter.screen_name, password: "abc123", avatar: "https://images.generated.photos/Q68GxmfmMzFB1ABU45GLqmEiFyzmSYkeHycMhouWSag/rs:fit:128:128/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAzNjU4ODcuanBn.jpg")
+User.create(username: Faker::Twitter.screen_name, password: "abc123", avatar: "https://images.generated.photos/nizOu0UIUNZiKaEAw0ZeHSAK5w9ga6mf09lCz01JRMA/rs:fit:128:128/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzA0MTAyMjIuanBn.jpg")
+User.create(username: Faker::Twitter.screen_name, password: "abc123", avatar: "https://images.generated.photos/Y2JzN_-sTqCWLGzpAdA3QOCa8JsAzK80QsaqBvxJzrk/rs:fit:128:128/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAyMzkwNDUuanBn.jpg")
+User.create(username: Faker::Twitter.screen_name, password: "abc123", avatar: "https://images.generated.photos/Cft9pm79mTfdISiraDsoJdHsgowEDlAZF_TzkEeZMw4/rs:fit:128:128/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAzNDY2MjcuanBn.jpg")
+User.create(username: Faker::Twitter.screen_name, password: "abc123", avatar: "https://images.generated.photos/spYHuhATAVtPwJ2i702crdtGulNyTmLWv_xnjfFuGAU/rs:fit:128:128/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzA3NjE4MjQuanBn.jpg")
+User.create(username: Faker::Twitter.screen_name, password: "abc123", avatar: "https://images.generated.photos/WSxIHpCyVDc1g2vBpjrN0xCJvEAVxBlnFi94GnWKavg/rs:fit:128:128/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzA4NDk3MjcuanBn.jpg")
+User.create(username: Faker::Twitter.screen_name, password: "abc123", avatar: "https://images.generated.photos/WuXiusPAyQfenwPnaQ4f-n7mMru82nQ4ECZ-bGGVn7U/rs:fit:128:128/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzA4NTM2NjQuanBn.jpg")
+
+
+
 
 
 base_image_url = 'https://image.tmdb.org/t/p/w500'
@@ -86,7 +111,7 @@ Movie.create(title: "The Color Purple", runtime: 154, image: base_image_url + "/
 Movie.create(title: "The Wicker Man", runtime: 102, image: base_image_url + "/9G6TBckQUKdx3dnn55abUCmonRX.jpg", genre: "Horror", tagline: "Some sacrifices must be made", release_year: 2006, overview: "A sheriff investigating the disappearance of a young girl from a small island discovers there's a larger mystery to solve among the island's secretive, neo-pagan community.", rating: 4.3)
 Movie.create(title: "Hard Boiled", runtime: 126, image: base_image_url + "/5XevEY9yFCg5DO4ptpR5nJfwV0L.jpg", genre: "Action", tagline: "As a cop, he has brains, brawn, and an instinct to kill.", release_year: 1992, overview: "A cop who loses his partner in a shoot-out with gun smugglers goes on a mission to catch them. ", rating: 7.6)
 Movie.create(title: "West Side Story", runtime: 152, image: base_image_url + "/vCtErvzF6S93DtoD7URwy9Mr7oe.jpg", genre: "Musical", tagline: "The screen achieves one of the great entertainments in the history of motion pictures.", release_year: 1961, overview: "In the slums of the upper West Side of Manhattan, New York, a gang of Polish-American teenagers called the Jets compete with a rival gang.", rating: 7.3)
-Movie.create(title: "Hoop Dreams", runtime: 174, image: base_image_url + "", genre: "Documentary", tagline: "/7qHwh3mFJs7ldwzGSWsBLmgecfj.jpg", release_year: 1994, overview: "Every school day, African-American teenagers William Gates and Arthur Agee travel 90 minutes each way from inner-city Chicago to St. Joseph High School in Westchester, Illinois, a predominately white suburban school well-known for the excellence of its basketball program.", rating: 7.7)
+Movie.create(title: "Hoop Dreams", runtime: 174, image: base_image_url + "/7qHwh3mFJs7ldwzGSWsBLmgecfj.jpg", genre: "Documentary", tagline: "/7qHwh3mFJs7ldwzGSWsBLmgecfj.jpg", release_year: 1994, overview: "Every school day, African-American teenagers William Gates and Arthur Agee travel 90 minutes each way from inner-city Chicago to St. Joseph High School in Westchester, Illinois, a predominately white suburban school well-known for the excellence of its basketball program.", rating: 7.7)
 Movie.create(title: "Vertigo", runtime: 128, image: base_image_url + "/15uOEfqBNTVtDUT7hGBVCka0rZz.jpg", genre: "Thriller", tagline: "Alfred Hitchcock engulfs you in a whirlpool of terror and tension!", release_year: 1958, overview: "A retired San Francisco detective suffering from acrophobia investigates the strange activities of an old friend's wife, all the while becoming dangerously obsessed with her.", rating: 8.2)
 Movie.create(title: "Walk The Line", runtime: 136, image: base_image_url + "/zMkD6FVikyPNnigoupO7vD5ti9p.jpg", genre: "Drama", tagline: "Love is a burning thing.", release_year: 2005, overview: "A chronicle of country music legend Johnny Cash's life, from his early days on an Arkansas cotton farm to his rise to fame with Sun Records in Memphis.", rating: 7.5)
 Movie.create(title: "All the President's Men", runtime: 138, image: base_image_url + "/cPtSHR7D2WGsDBfnC5DxV927hKn.jpg", genre: "Thriller", tagline: "The most devastating detective story of this century.", release_year: 1976, overview: "During the 1972 elections, two reporters' investigation sheds light on the controversial Watergate scandal that compels President Richard Nixon to resign from his post.", rating: 7.7)
