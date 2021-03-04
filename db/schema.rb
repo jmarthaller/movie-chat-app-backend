@@ -29,7 +29,7 @@ ActiveRecord::Schema.define(version: 2021_02_23_203515) do
     t.string "genre"
     t.string "tagline"
     t.integer "release_year"
-    t.string "overview"
+    t.text "overview"
     t.integer "rating"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
