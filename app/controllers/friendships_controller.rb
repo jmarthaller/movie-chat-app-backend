@@ -7,6 +7,9 @@ class FriendshipsController < ApplicationController
 
     def create
         @new_friendship = Friendship.create(friendship_params)
+        # if @new_friendship.save
+        #   FollowMailer.follow_email(@new_friendship.followee).deliver_now
+        # end
         render json: @new_friendship
     end
 

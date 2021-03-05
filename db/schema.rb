@@ -40,6 +40,7 @@ ActiveRecord::Schema.define(version: 2021_02_23_203515) do
     t.integer "movie_id"
     t.text "content"
     t.integer "personal_rating"
+    t.integer "likes"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

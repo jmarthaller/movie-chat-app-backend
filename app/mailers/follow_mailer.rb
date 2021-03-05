@@ -3,8 +3,8 @@ class FollowMailer < ApplicationMailer
 
     def follow_email(user) 
         @user = user
-        @specialtext = `Hey there #{user.username}, #{user.username} just started following you!`
-        mail(to: `#{user.email}`, subject: "Look Who Decided to Follow You")
+        @specialtext = `Hey there #{user.username}, #{user.following_users} just started following you!`
+        mail(to: `#{user.email}`, subject: "Look Who Started Following You")
     end
 
     def message_followee(user) 
