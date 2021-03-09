@@ -29,7 +29,7 @@ class UsersController < ApplicationController
         end
 
         def signup
-            @user = User.create(username: params[:username], password: params[:password], avatar: params[:avatar])
+            @user = User.create(username: params[:username], password: params[:password], avatar: params[:avatar], email: params[:email])
             # user = User.last
             render json: @user
         end
@@ -43,6 +43,6 @@ class UsersController < ApplicationController
         private
         
         def user_params
-            params.permit(:username, :password, :avatar)
+            params.permit(:username, :password, :avatar, :email)
         end
 end
