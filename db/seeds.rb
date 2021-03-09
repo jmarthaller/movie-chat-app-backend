@@ -15,7 +15,8 @@ puts "Seeding data"
 User.create(
     username: "markansas",
     password: "123",
-    avatar: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Screen_Shot_for_avatar_image_hosting.png"
+    avatar: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Screen_Shot_for_avatar_image_hosting.png",
+    email: "putridpotatoesdummyuser@gmail.com"
 )
 
 # 20.times do 
