@@ -297,4 +297,4 @@ Review.create(likes: rand(1..25), content: "Pure feeling! So much stuff here tha
 Review.create(likes: rand(1..25), content: "Just had a conversation with my friend where she reminded me the reason we saw this movie in theaters was because she was having a bad day and wanted to see something that would make her realize other people have had it way worse. Absolutely hilarious.", personal_rating: rand(1..5), user_id: User.all.sample.id, movie_id: Movie.all.sample.id)
 Review.create(likes: rand(1..25), content: "I was entranced by everything in this movie. The music, lighting, and the acting makes you feel as if you are there with the rest of the cast. I really loved the story and appreciate the classic precedent this movie sets for future movies. The motivations for every character was very believable. Only con was that I wished to see more action, but its such a small nitpick that it doesn't really matter. Highly recommend.", personal_rating: rand(1..5), user_id: User.all.sample.id, movie_id: Movie.all.sample.id)
 
-puts "Data seeded!"
+puts "Data Seeded!"
