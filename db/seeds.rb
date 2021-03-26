@@ -19,9 +19,6 @@ User.create(
     email: "putridpotatoesdummyuser@gmail.com"
 )
 
-# 20.times do 
-#     User.create(username: Faker::Twitter.screen_name, password: "123", avatar: Faker::LoremFlickr.image)
-# end
 
 User.create(username: Faker::Twitter.screen_name, password: "abc123", avatar: "https://images.generated.photos/LT1oiQmDQfXybHwj8thgCttXfhwhF_Jgn7eQhf1hE4o/rs:fit:128:128/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzA0NTY0NDYuanBn.jpg", email: "putridpotatoesdummyuser@gmail.com")
 User.create(username: Faker::Twitter.screen_name, password: "abc123", avatar: "https://images.generated.photos/NRysxZ5yWs2amxKkcpibCWng-70sPmEaHiECDBnI2Bw/rs:fit:128:128/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzA1MzY4MTUuanBn.jpg", email: "putridpotatoesdummyuser@gmail.com")
@@ -111,10 +108,8 @@ Movie.create(title: "All the President's Men", runtime: 138, image: base_image_u
 Movie.create(title: "Salo", runtime: 70, image: base_image_url + "/sXdFKnc4MVhk06CGsF3uCERwo1T.jpg", genre: "Horror", tagline: "The final vision of a controversial filmmaker.", release_year: 1975, overview: "Four corrupted fascist libertines round up 9 teenage boys and girls and subject them to 120 days of sadistic torture.", rating: 6.5)
 Movie.create(title: "Pretty Woman", runtime: 119, image: base_image_url + "/hMVMMy1yDUvdufpTl8J8KKNYaZX.jpg", genre: "Romance", tagline: "Who knew it was so much fun to be a hooker?", release_year: 1990, overview: "When a millionaire wheeler-dealer enters a business contract with a Hollywood hooker Vivian Ward, he loses his heart in the bargain.", rating: 7.4)
 Movie.create(title: "The Exorcist", runtime: 122, image: base_image_url + "/4ucLGcXVVSVnsfkGtbLY4XAius8.jpg", genre: "Horror", tagline: "Something almost beyond comprehension is happening to a girl on this street, in this house… and a man has been sent for as a last resort. This man is The Exorcist.", release_year: 1973, overview: "12-year-old Regan MacNeil begins to adapt an explicit new personality as strange events befall the local area of Georgetown. Her mother becomes torn between science and superstition in a desperate bid to save her daughter, and ultimately turns to her last hope: Father Damien Karras, a troubled priest who is struggling with his own faith.", rating: 7.7)
-#finish Jenna watchlist, then move onto Jenna movies
-# 100.times do 
-#     Review.create(content: Faker::Quote.famous_last_words, personal_rating: rand(1..5), user_id: User.all.sample.id, movie_id: Movie.all.sample.id)
-# end
+
+
 Review.create(likes: rand(1..25), content: "it really is the antithesis to my tempo, but there's something hysterically funny about the amount of labor, craft, and money put into a middling barely-period romcom and real-time disaster movie sandwiched between a hammy jewel-hunting short film. Even funnier that it worked if i don't think about it too much. what can I say poor people have all the fun!", personal_rating: rand(1..5), user_id: User.all.sample.id, movie_id: Movie.all.sample.id)
 Review.create(likes: rand(1..25), content: "had never seen this before. what else to say other than the filmmakers know how to make a movie. i mean he busted this block wide open. a blockBUSTER. can you imagine seeing this in the theaters? that must have been unbelievable. silly beginning/plot device aside. this movie kinda just rules. it’s the combination of its star power and magical qualities that come from the score and the sense of scale and talent for big, big movies", personal_rating: rand(1..5), user_id: User.all.sample.id, movie_id: Movie.all.sample.id)
 Review.create(likes: rand(1..25), content: "This movie has reportedly been used as a surrogate to waterboarding.", personal_rating: rand(1..5), user_id: User.all.sample.id, movie_id: Movie.all.sample.id)
