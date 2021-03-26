@@ -9,7 +9,6 @@ class UsersController < ApplicationController
         def show
             @user = User.find(params[:id])
             render json: @user
-            # render json: @current_user
         end
     
     
@@ -30,7 +29,6 @@ class UsersController < ApplicationController
 
         def signup
             @user = User.create(username: params[:username], password: params[:password], avatar: params[:avatar], email: params[:email])
-            # user = User.last
             render json: @user
         end
 
