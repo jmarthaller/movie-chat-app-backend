@@ -11,7 +11,6 @@ class UsersController < ApplicationController
             render json: @user
         end
     
-    
         def login
             render json: User.first
         end
