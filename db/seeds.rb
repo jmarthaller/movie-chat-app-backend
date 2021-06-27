@@ -19,7 +19,6 @@ User.create(
     email: "putridpotatoesdummyuser@gmail.com"
 )
 
-
 User.create(username: Faker::Twitter.screen_name, password: "abc123", avatar: "https://images.generated.photos/LT1oiQmDQfXybHwj8thgCttXfhwhF_Jgn7eQhf1hE4o/rs:fit:128:128/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzA0NTY0NDYuanBn.jpg", email: "putridpotatoesdummyuser@gmail.com")
 User.create(username: Faker::Twitter.screen_name, password: "abc123", avatar: "https://images.generated.photos/NRysxZ5yWs2amxKkcpibCWng-70sPmEaHiECDBnI2Bw/rs:fit:128:128/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzA1MzY4MTUuanBn.jpg", email: "putridpotatoesdummyuser@gmail.com")
 User.create(username: Faker::Twitter.screen_name, password: "abc123", avatar: "https://images.generated.photos/P_6war8s-Ka-DIBZobRocbBfp-0rGtqCSLQekGtmwZg/rs:fit:128:128/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzA1NTg4MjYuanBn.jpg", email: "putridpotatoesdummyuser@gmail.com")
