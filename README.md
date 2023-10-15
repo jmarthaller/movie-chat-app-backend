@@ -9,3 +9,6 @@ To start the server on your local machine:
 `rails db:create && rails db:migrate`
 
 `rails s`
+
+
+UPDATE 10/15/23: CONVERTING TO C#
