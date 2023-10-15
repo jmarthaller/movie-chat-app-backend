@@ -4,3 +4,13 @@
 require_relative "config/application"
 
 Rails.application.load_tasks
+
+namespace :csharp do
+    task :build do
+      sh 'dotnet build csharp'
+    end
+  
+    task :run do
+      sh 'dotnet run --project csharp'
+    end
+  end
